@@ -1,0 +1,204 @@
+
+@media (max-width: 767.98px) {
+    .navbar-brand img {
+    height: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 28px;
+}
+
+.para {
+    font-size: 18px;
+}
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+}
+
+*{
+    box-sizing: border-box;
+    scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: rgb(20, 20, 20) !important;
+    color: white !important;
+}
+
+.primary-buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    min-width: auto;
+    width: 100%;
+    flex: 0 0 auto;
+}   
+
+.cont {
+    border: 2px solid rgb(49, 206, 179);
+    border-radius: 15px; 
+    margin-top: 8px; 
+    background-color: rgb(13, 12, 12);
+}
+
+.nav {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.para {
+    font-size: 28px;
+    margin-top: 110px;
+}
+
+.heading {
+    font-size: 4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px solid white;
+    border-color: aqua;
+    width: 15.5vw;
+    padding: 5px;
+}
+
+.buttons {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    min-width: auto;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.gradient-bg {
+    background: linear-gradient(to bottom, #ffdb25, #4c4846);
+    color: white !important; 
+    border-radius: 20px !important;
+}
+
+.gradient-bg-2 {
+    background: linear-gradient(to bottom, #22a3ad, #4c4846);
+    color: white !important; 
+    border-radius: 20px !important;
+}
+
+.gradient-bg-3 {
+    background: linear-gradient(to bottom, #0946d4, #4c4846);
+    color: white !important; 
+    border-radius: 20px !important;
+}
+
+.gradient-bg-4 {
+    background: linear-gradient(to bottom, #f74ed8, #4c4846);
+    color: white !important; 
+    border-radius: 20px !important;
+}
+
+.gradient-bg-5 {
+    background: linear-gradient(to bottom, #3a47d9, #4c4846);
+    color: white !important; 
+    border-radius: 20px !important;
+}
+
+.gradient-bg-6 {
+    background: linear-gradient(to bottom, #b00be7, #4c4846);
+    color: white !important; 
+    border-radius: 20px !important;
+}
+
+.text-info {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card-text {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.fm {
+    margin-bottom: 130px;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
+.link-3 {
+    text-decoration: none;
+    color: rgb(8, 168, 109);
+    font-weight: 400;
+}
+
+.link-2 {
+    text-decoration: none;
+    color: grey;
+}
+
+.link:hover {
+    color: #1ec683;
+}
+
+.link-wrapper ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+.link-wrapper ul li a {
+    flex: 1;
+}
+  
+
+.effect img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.effect:hover img {
+    -webkit-transform: scale(3);
+    transform: scale(.8);
+}
+
+.navbar-collapse {
+    transition: height 0.5s ease, opacity 0.5s ease;
+}
+
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: aqua!important;
+}
+
+.location-container {
+    display: flex;
+    align-items: flex-start;
+}
+.location-text {
+    margin-left: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
